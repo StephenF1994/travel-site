@@ -1,0 +1,47 @@
+@import "normalize.css";
+@import "modules/_large-dashhero";
+@import "base/_global";
+
+
+.large-hero{
+	position: relative;
+
+	&__text-content{
+		position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	}
+
+
+
+	&__title{
+		font-weight: 300;
+	font-size: 4.8rem;
+	color: #2f5572;
+	}
+
+
+
+
+	&__subtitle{
+		font-weight: 300;
+	font-size: 2.9rem;
+	color: #2f5572;
+		}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
